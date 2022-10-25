@@ -1,4 +1,7 @@
+
+
 import java.util.*;
+
 
 public class Number {
     public static void main(String[] args) {
@@ -11,7 +14,7 @@ public class Number {
             double random = Math.random() * 1000;
             integers.add((int) random);
         }
-        integers.removeIf(integer -> integer % 2 == 0);
+        integers.removeIf(integer -> integer %2 == 0);
         return integers;
     }
 

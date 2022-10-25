@@ -1,8 +1,8 @@
 
-package HW9.task1_2;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
+
 public class Product {
     private final String productsName;
     private double price;

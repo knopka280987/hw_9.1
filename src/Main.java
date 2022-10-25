@@ -1,7 +1,8 @@
 
-
 import java.util.HashSet;
 import java.util.Set;
+import HW9.task1_2.Product;
+
 
 public class Main {
     public static void main(String[] args) throws ProductException {
